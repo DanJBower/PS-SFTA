@@ -11,6 +11,8 @@ namespace OutputArgs
             {
                 Console.WriteLine($"{i++}: {arg}");
             }
+            Console.WriteLine("fin, press enter to exit...");
+            Console.ReadLine();
         }
     }
 }
