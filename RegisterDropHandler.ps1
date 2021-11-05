@@ -12,7 +12,7 @@ function RegisterDropHandle
     try
     {
         $keyPath = "HKEY_CURRENT_USER\SOFTWARE\Classes\$ProgId\shellex\DropHandler"
-        [Microsoft.Win32.Registry]::SetValue($keyPath, "", "{86C86720-42A0-1069-A2E8-08002B30309D}")
+        [Microsoft.Win32.Registry]::SetValue($keyPath, "", "{60254CA5-953B-11CF-8C96-00AA00B8708C}")
         Write-Verbose "Register $ProgId drop handler okay"
     }
     catch
